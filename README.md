@@ -72,10 +72,10 @@ The captured `.pcapng` file was opened in Wireshark on the Kali machine. Display
     2.  The Debian machine responded with a `[SYN, ACK]` packet, confirming that a service was listening on that port.
     3.  The Kali machine then sent a `[RST]` packet, because the default Nmap scan (a "SYN scan") does not need to complete the full three-way handshake once it confirms the port is open.
 
-\[Add a screenshot of the Wireshark packets for the open port (Port 22), showing the SYN, SYN ACK, and RST exchange.\]
+![alt text](image-1.png)
 
 ### 6. Conclusion
 
 This lab successfully demonstrates the low-level mechanics of a simple network scan. By performing the scan and capturing the traffic simultaneously, it becomes clear how Nmap interprets packet responses to determine whether a port is open or closed. This foundational knowledge is critical for anyone in cybersecurity, as it provides a deeper understanding of network reconnaissance and firewall evasion techniques.
 
-\[Add a screenshot of the Nmap scan results showing port 22 as open.\]
+![alt text](image-2.png)
